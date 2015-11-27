@@ -1,15 +1,28 @@
 html , 
 body {
-	 	margin:0;
-	 	padding:0;
-
-	 block, 
-	 graphics {
-	 	width:705;
-		height:173;
-	 	position:absolute;
-	 	top:0;
-	 	left:0;
+	 	margin:10;
+	 	padding:10;
 	 }
-	 block{
+#block,
+#graphics {
+	
+    position: absolute;
+    width: 710px;
+
+
+
+	 }
+#block{
 	 	z-index: 10;
+	 	padding:10px;
+	 }
+.Absolute-Center {
+	margin:auto;
+	position: absolute;
+	top:0; left:0; bottom: 0; right:0;
+    vertical-align: center;
+    height: auto;
+    width: auto;
+    
+    
+}
